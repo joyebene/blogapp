@@ -48,19 +48,19 @@ const Navbar = () => {
             <div className="py-2">
               <ul>
                 <li className="text-sm text-gray-800 mb-1 hover:text-gray-500">
-                  <Link href="/about">
+                  <Link href="/about" onClick={handleClick}>
                     <Info size={12} color="blue" className="inline mb-1" />{" "}
                     About community
                   </Link>
                 </li>
                 <li className="text-sm text-gray-800 mb-1 hover:text-gray-500">
-                  <Link href="/signup">
+                  <Link href="/signup" onClick={handleClick}>
                     <UserPlus size={12} color="blue" className="inline mb-1" />{" "}
                     Signup
                   </Link>
                 </li>
                 <li className="text-sm text-gray-800 mb-1 hover:text-gray-500">
-                  <Link href="/login">
+                  <Link href="/login" onClick={handleClick}>
                     <LogIn size={12} color="blue" className="inline mb-1" />{" "}
                     Login
                   </Link>
