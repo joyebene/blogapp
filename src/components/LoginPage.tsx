@@ -21,7 +21,7 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="w-10/12 md:w-1/2 p-8 mx-auto py-20">
+    <div className="w-10/12 md:w-1/2 p-4 md:p-8 mx-auto py-20">
       <h1 className="font-bold text-2xl mb-6">
         Hey, welcome back! <span className="text-blue-700">Login</span>
       </h1>
