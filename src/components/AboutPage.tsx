@@ -10,7 +10,7 @@ const AboutPage = () => {
           coders, tech enthusiasts, and problem-solvers who love sharing
           knowledge and collaborating on projects.
         </p>
-        <h4 className="font-semibold text-lg mb-2">What We Do Here</h4>
+        <h4 className="font-semibold text-lg mb-2 text-gray-900">What We Do Here</h4>
         <ul className="list-disc pl-5 text-gray-700 mb-4">
           <li>💡 Share innovative ideas</li>
           <li>🤝 Collaborate on projects</li>
