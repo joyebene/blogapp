@@ -33,7 +33,7 @@ const Navbar = () => {
       {/* Mobile Nav */}
       <div className="md:hidden">
         <div className="flex items-center justify-between">
-          <Link href="/" onClick={handleClick}>
+          <Link href="/">
             <h1 className="text-blue-600 bg-black w-fit p-2 rounded-md font-bold text-xl">
               DEV<span className="text-white">BLOG</span>
             </h1>
