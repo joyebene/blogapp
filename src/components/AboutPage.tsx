@@ -18,7 +18,7 @@ const AboutPage = () => {
           <li>🎯 Build impactful solutions</li>
         </ul>
         <p className="text-gray-700">
-          Join us on this journey to build, learn, and inspire each other. Let's
+          Join us on this journey to build, learn, and inspire each other. Let&apos;s
           code the future together!
         </p>
       </div>

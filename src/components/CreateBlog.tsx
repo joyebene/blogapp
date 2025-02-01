@@ -8,8 +8,9 @@ export default function CreateBlog() {
   const [addTag, setAddTag] = useState("");
   const [content, setContent] = useState("");
 
-  const handleSubmit = (e: any) => {
-    e.preventDefault();
+
+  const handleSubmit = () => {
+    // e.preventDefault();
     console.log("Blog Created");
   };
 

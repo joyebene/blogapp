@@ -1,12 +1,18 @@
 import React from "react";
 import Link from "next/link";
 
-function CustomLink({ text, color = "#3925e7", href }: any) {
+interface CustomLinkProps {
+  text: string;
+  color?: string;
+  href: string;
+}
+
+const CustomLink: React.FC<CustomLinkProps> = ({ text, color = "#3925e7", href }) => {
   return (
     <Link href={href}>
       <div
-        className={`border font-bold p-2 pl-7 pr-7 rounded-full relative overflow-hidden group`}
-        style={{ color: color }}
+        className="border font-bold p-2 pl-7 pr-7 rounded-full relative overflow-hidden group"
+        style={{ color }}
       >
         <span
           className="absolute inset-0 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out"
@@ -22,6 +28,6 @@ function CustomLink({ text, color = "#3925e7", href }: any) {
       </div>
     </Link>
   );
-}
+};
 
 export default CustomLink;

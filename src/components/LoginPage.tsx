@@ -10,14 +10,14 @@ const LoginPage = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const handleEmailInput = (e: any) => {
+  const handleEmailInput = (e: React.ChangeEvent<HTMLInputElement>) => {
     setEmail(e.target.value);
   };
-  const handlePasswordInput = (e: any) => {
+  const handlePasswordInput = (e: React.ChangeEvent<HTMLInputElement>) => {
     setPassword(e.target.value);
   };
-  const handleSubmit = (e: any) => {
-    e.preventDefault();
+  const handleSubmit = () => {
+    // e.preventDefault();
   };
 
   return (
@@ -54,7 +54,7 @@ const LoginPage = () => {
           <Button text="Login" className="w-full" />
         </div>
         <div className="mt-6 font-medium text-center flex items-center justify-center gap-1">
-          <p className="text-sm">Don't have an account?</p>{" "}
+          <p className="text-sm">Don&apos;t have an account?</p>{" "}
           <Link
             href="/signup"
             className="text-blue-800 cursor-pointer transition-all duration-200 hover:text-yellow-600"

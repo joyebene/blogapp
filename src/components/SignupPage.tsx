@@ -12,20 +12,20 @@ const SignupPage = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const handleFullnameInput = (e: any) => {
+  const handleFullnameInput = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFullName(e.target.value);
   };
-  const handleUsernameInput = (e: any) => {
+  const handleUsernameInput = (e: React.ChangeEvent<HTMLInputElement>) => {
     setUsername(e.target.value);
   };
-  const handleEmailInput = (e: any) => {
+  const handleEmailInput = (e: React.ChangeEvent<HTMLInputElement>) => {
     setEmail(e.target.value);
   };
-  const handlePasswordInput = (e: any) => {
+  const handlePasswordInput = (e: React.ChangeEvent<HTMLInputElement>) => {
     setPassword(e.target.value);
   };
-  const handleSubmit = (e: any) => {
-    e.preventDefault()
+  const handleSubmit = () => {
+    // e.preventDefault()
 
   }
 

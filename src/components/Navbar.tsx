@@ -18,7 +18,7 @@ import CustomLink from "./shared/CustomLink";
 
 const Navbar = () => {
   const [menuDisplay, setMenuDisplay] = useState(false);
-  const [user, setUser] = useState(false);
+  const user = false;
 
   const handleClick = () => {
     if (menuDisplay === false) {
